@@ -1,4 +1,4 @@
-Django and React fullstack practice by following [this tutorial](https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j).
+Django and React fullstack practice by following [this tutorial](https://www.youtube.com/watch?v=c-QsfbznSXI&t=54s).
 
 ## Project Description
 
@@ -16,7 +16,7 @@ Django backend and React frontend.
 
    ```bash
    git clone https://github.com/wangf1/fullstack_practice_django.git
-   cd fullstack_practice_django
+   cd fullstack_practice_django/backend
    ```
 
 2. **Create a virtual environment:**
@@ -44,11 +44,7 @@ Django backend and React frontend.
 4. **Install the dependencies:**
 
    ```bash
-   pip install pipenv
-   ```
-
-   ```bash
-   pipenv install
+   pip install -r requirements.txt
    ```
 
 ## Usage
@@ -66,10 +62,6 @@ Explain how to use your project. For example:
    Open your web browser and go to `http://127.0.0.1:8000`.
 
 ## Running Tests
-
-```bash
-pipenv install --dev
-```
 
 ```bash
 python manage.py test
